@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.main{
+    background-color: #fff;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li a {
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover{
+    color: #8e9fff;
+}
+
+.information{
+    padding-top: 90px;
+    padding-left: 310px;
+    padding-right: 310px;
+}
+
+.information-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.information .carte{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 3px #c5baff solid;
+    height: 110px;
+    width: 110px;
+}
+
+.information .carte-grand{
+    cursor: pointer;
+    text-align: center;
+    border-radius: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 3px #c5baff solid;
+    height: 110px;
+    width: 470px;
+}
+
+.information .carte:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 5px 4px #cacaca, 0 10px 8px #cacaca, 0 20px 16px #cacaca;
+    transition: 1s;
+}
+
+.information .carte-grand:hover{
+    transform: translateY(-30px);
+    box-shadow: 0 5px 4px #cacaca, 0 10px 8px #cacaca, 0 20px 16px #cacaca;
+    transition: 1s;
+}
+
+.information h1{
+    color: #8e9fff;
+    font-size: 30px;
+}

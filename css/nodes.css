@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+li, a{
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.main{
+    background: url("https://cdn.discordapp.com/attachments/827812026687422515/836491795948371978/Sans_titre_-_1.png");
+    background-size: cover;
+    height: 120vh;
+}
+
+.secondary{
+    background-color: #fff;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+nav{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+nav li a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+nav li a:hover{
+    color: #8b73ff;
+    transition: 0.5s;
+}
+
+.tableau{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.plus-information{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 80px;
+    flex-flow: column;
+}
+
+.plus-information a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+table{
+    width: 82%;
+    border-radius: 20px;
+    box-shadow: 0 5px 4px #cacaca, 0 10px 8px #cacaca, 0 20px 16px #cacaca;
+}
+
+th{
+    width: 10%;
+    height: 70px;
+}
+td{
+    width: 10%;
+    height: 70px;
+}
+
+.background-0{
+    background: #fff;
+}
+
+.background-1{
+    background: #f2f4ff;
+}
